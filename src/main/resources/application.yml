@@ -23,18 +23,17 @@ spring:
       poolName: demo-tk-account-api-pool
       connectionTestQuery: SELECT 1
   jpa:
-    database-platform: org.hibernate.dialect.MySQLDialect
+    database-platform: org.hibernate.dialect.MySQL5Dialect
     show-sql: true
     open-in-view: true
-    generate-ddl: false
     hibernate:
-      ddl-auto: none
+      ddl-auto: create
     properties:
       hibernate.id.new_generator_mappings: false
       hibernate.cache.use_second_level_cache: false
       hibernate.cache.use_query_cache: false
       hibernate.generate_statistics: true
-      hibernate.hbm2ddl.auto: none
+      hibernate.hbm2ddl.auto: create
   jackson:
     serialization:
       indent-output: true
