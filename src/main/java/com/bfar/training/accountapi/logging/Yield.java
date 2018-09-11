@@ -1,4 +1,4 @@
-package com.bfar.training.logging;
+package com.bfar.training.accountapi.logging;
 
 import java.util.Map;
 

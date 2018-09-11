@@ -1,6 +1,6 @@
-package com.bfar.training.logging;
+package com.bfar.training.accountapi.logging;
 
-import static com.bfar.training.logging.Preconditions.checkNotNull;
+import static com.bfar.training.accountapi.logging.Preconditions.checkNotNull;
 
 import java.util.LinkedHashMap;
 import java.util.Map;

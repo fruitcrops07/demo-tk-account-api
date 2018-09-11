@@ -1,4 +1,4 @@
-package com.bfar.training.resource;
+package com.bfar.training.accountapi.resource;
 
 import javax.ws.rs.GET;
 import javax.ws.rs.Path;
@@ -9,7 +9,7 @@ import javax.ws.rs.core.Response;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
-import com.bfar.training.ApplicationConfig;
+import com.bfar.training.accountapi.ApplicationConfig;
 
 @Component
 @Path("/__gtg")

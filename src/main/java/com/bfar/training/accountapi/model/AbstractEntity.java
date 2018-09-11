@@ -1,4 +1,4 @@
-package com.bfar.training.model;
+package com.bfar.training.accountapi.model;
 
 import java.io.Serializable;
 import java.util.Date;

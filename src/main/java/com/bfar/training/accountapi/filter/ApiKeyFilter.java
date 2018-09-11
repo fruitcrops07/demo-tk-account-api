@@ -1,4 +1,4 @@
-package com.bfar.training.filter;
+package com.bfar.training.accountapi.filter;
 
 import java.io.IOException;
 import java.util.List;
@@ -19,7 +19,7 @@ import org.springframework.core.Ordered;
 import org.springframework.core.annotation.Order;
 import org.springframework.stereotype.Component;
 
-import com.bfar.training.ApplicationConfig;
+import com.bfar.training.accountapi.ApplicationConfig;
 
 import lombok.Setter;
 

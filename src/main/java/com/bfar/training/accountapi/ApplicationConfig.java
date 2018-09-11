@@ -1,4 +1,4 @@
-package com.bfar.training;
+package com.bfar.training.accountapi;
 
 import java.util.ArrayList;
 import java.util.List;

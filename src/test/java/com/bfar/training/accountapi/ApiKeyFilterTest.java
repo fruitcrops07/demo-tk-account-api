@@ -1,4 +1,4 @@
-package com.bfar.training;
+package com.bfar.training.accountapi;
 
 import static org.mockito.Mockito.atLeast;
 import static org.mockito.Mockito.mock;
@@ -19,7 +19,7 @@ import org.junit.Before;
 import org.junit.Test;
 import org.mockito.Mock;
 
-import com.bfar.training.filter.ApiKeyFilter;
+import com.bfar.training.accountapi.filter.ApiKeyFilter;
 
 public class ApiKeyFilterTest {
 

@@ -1,4 +1,4 @@
-package com.bfar.training.resource;
+package com.bfar.training.accountapi.resource;
 
 import java.io.IOException;
 import java.io.InputStream;

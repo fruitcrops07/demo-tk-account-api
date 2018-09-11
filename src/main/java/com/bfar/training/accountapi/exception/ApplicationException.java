@@ -1,4 +1,4 @@
-package com.bfar.training.exception;
+package com.bfar.training.accountapi.exception;
 
 public class ApplicationException extends RuntimeException {
     public ApplicationException(Throwable t) {

@@ -1,11 +1,11 @@
-package com.bfar.training;
+package com.bfar.training.accountapi;
 
 import org.glassfish.jersey.server.ResourceConfig;
 import org.glassfish.jersey.servlet.ServletProperties;
 import org.springframework.stereotype.Component;
 
-import com.bfar.training.resource.GtgResource;
-import com.bfar.training.resource.RamlResource;
+import com.bfar.training.accountapi.resource.GtgResource;
+import com.bfar.training.accountapi.resource.RamlResource;
 
 @Component
 public class JerseyConfig extends ResourceConfig {

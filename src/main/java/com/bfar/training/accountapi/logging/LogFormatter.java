@@ -1,7 +1,7 @@
-package com.bfar.training.logging;
+package com.bfar.training.accountapi.logging;
 
-import static com.bfar.training.logging.LogFormatter.NameAndValue.nameAndValue;
-import static com.bfar.training.logging.Preconditions.checkNotNull;
+import static com.bfar.training.accountapi.logging.LogFormatter.NameAndValue.nameAndValue;
+import static com.bfar.training.accountapi.logging.Preconditions.checkNotNull;
 
 import java.util.ArrayList;
 import java.util.Collection;

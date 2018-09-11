@@ -1,4 +1,4 @@
-package com.bfar.training;
+package com.bfar.training.accountapi;
 
 import static com.github.tomakehurst.wiremock.core.WireMockConfiguration.options;
 
@@ -24,7 +24,7 @@ import com.github.tomakehurst.wiremock.WireMockServer;
 @EntityScan(basePackages = { Application.ENTITY_PACKAGE })
 public class Application {
     private static final int MESSAGE_CACHE_SECONDS = 3600;
-    protected static final String ENTITY_PACKAGE = "com.bfar.training.model";
+    protected static final String ENTITY_PACKAGE = "com.bfar.training.accountapi.model";
     
     private static final Logger logger = LoggerFactory.getLogger(Application.class);
 

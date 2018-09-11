@@ -1,4 +1,4 @@
-package com.bfar.training.http;
+package com.bfar.training.accountapi.http;
 
 import java.io.Serializable;
 
