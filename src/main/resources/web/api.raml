@@ -2,8 +2,45 @@
 title:  Spring Starter Service
 mediaType: application/json
 protocols: [HTTP]
-baseUri: /v1
+baseUri: /
+securitySchemes:
+  passthrough:
+    description: |
+      This API supports Pass Through Authentication.
+    type: Pass Through
+    describedBy:
+      headers:
+        api-key:
+          type: string
 
 /__gtg:
   get:
     description: Good to go healthcheck
+
+/actuator:
+  get:
+    description: Actuator of API
+    headers:
+            x-api-key:
+              description: Client API Key
+              type: string
+              required: true
+              example: pass123$$
+  /health:
+    get:
+      description: Health of API
+      headers:
+              x-api-key:
+                description: Client API key
+                type: string
+                required: true
+                example: pass123$$
+  /info:
+    get:
+      description: Info of API
+      headers:
+              x-api-key:
+                description: Client API key
+                type: string
+                required: true
+                example: pass123$$

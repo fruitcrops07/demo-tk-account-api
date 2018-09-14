@@ -26,6 +26,7 @@ spring:
     database-platform: org.hibernate.dialect.MySQL5Dialect
     show-sql: true
     open-in-view: true
+    generate-dll: false
     hibernate:
       ddl-auto: create
     properties:
@@ -43,3 +44,5 @@ application-config:
   wiremock: true
   wiremockPort: 9998
   version: 1.0
+  apiKeys:
+    - pass123$$
